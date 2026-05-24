@@ -11,6 +11,7 @@
     "require": {
         "php": "^8.4",
         "barryvdh/laravel-dompdf": "^3.1",
+        "ext-gd": "*",
         "laravel/framework": "^13.8",
         "laravel/tinker": "^3.0",
         "resend/resend-php": "^1.3"

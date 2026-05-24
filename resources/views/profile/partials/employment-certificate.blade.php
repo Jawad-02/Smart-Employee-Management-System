@@ -26,10 +26,17 @@
 </head>
 <body>
     <div class="header">
-        <div style="text-align: center; margin-bottom: 5px;">
-            <h1 style="font-size: 24pt; color: #1D4ED8; margin: 0 0 2px 0; letter-spacing: 3px;">SEMS</h1>
-            <div style="font-size: 10pt; color: #6B7280;">Smart Employee Management System</div>
-        </div>
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <td style="width: 70px; vertical-align: middle;">
+                    <img src="{{ public_path('logo.png') }}" alt="SEMS" width="60" height="60" style="display: block;">
+                </td>
+                <td style="vertical-align: middle;">
+                    <h1 style="font-size: 20pt; color: #1D4ED8; margin: 0 0 2px 0;">SEMS</h1>
+                    <div style="font-size: 10pt; color: #6B7280;">Smart Employee Management System</div>
+                </td>
+            </tr>
+        </table>
     </div>
 
     <hr>
