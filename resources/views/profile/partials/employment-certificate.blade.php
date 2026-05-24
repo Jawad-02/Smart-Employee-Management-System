@@ -7,11 +7,6 @@
         @page { margin: 40px 45px; }
         body { font-family: 'DejaVu Sans', sans-serif; color: #333; font-size: 11pt; line-height: 1.5; }
         .header { margin-bottom: 20px; }
-        .header table { width: 100%; }
-        .header .logo-col { width: 70px; vertical-align: middle; }
-        .header .text-col { vertical-align: middle; }
-        .header h1 { font-size: 20pt; color: #1D4ED8; margin: 0 0 2px 0; }
-        .header .subtitle { font-size: 10pt; color: #6B7280; }
         hr { border: none; border-top: 2px solid #1D4ED8; margin: 15px 0; }
         .title { text-align: center; font-size: 14pt; font-weight: bold; color: #1D4ED8; margin: 20px 0; text-transform: uppercase; letter-spacing: 2px; }
         .date-line { text-align: right; margin-bottom: 15px; font-size: 10pt; }
@@ -31,17 +26,10 @@
 </head>
 <body>
     <div class="header">
-        <table cellpadding="0" cellspacing="0">
-            <tr>
-                <td class="logo-col" width="70">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAYAAAA5ZDbSAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADQklEQVR4nO3dvW3jQBAF4NHh0gPUgHJ14kzpFeEiDBdxRThV5k6UqwEDLkAXLUDYlEzuz8ybx/dFBiyIs/M4lCVxYTMREREREREREREREenqcLrcomuQAQ6ny62EO/1ZknsUpoJObE14CjmR2qnUNIPrFZCCBjQiEAUNwCMEhRzAe7o0zU6iGx19fFpojUWqJTW0YKeQa0shS/MU9EpZG5a1bjcsDWJYQ1cswU4xrmm1LTQBYY27iIMeTpfb9Xx0Pfb+/fVboz+eXlxqiFhv4XrQcjZ7LnYu2K88go5Yu5lTwKjBfsUY9NCDRJ21NeEWnpdts/G9GfLkUcGatYVbeIVsNv71+XfPJ4sMNqvr+bgb2bduTxj5l2LRY3oLzykuRgT9q9cTSbvr+bibTnQPNAH3nN4RzxeFJmCZp4DJKWByCpgcTcC939ZEvE0agSZgmUcVcK+pY5leM7KA5Tu6gFunj2l6zQgDNqsPiS1cM9KAzcz+/Pu7OLA1j82m69eFiEpwj+7J+rAXiG/DRqAMeC4s1gn9Ce0leq3eX9PRQWlOax0I69D3wXewvo62oAq4B7ZLNU3Amt55NAH3xDTFFAFreh1EnfEjj8uwJooJHoXhUg39SdZPWz63tg21BmTAj+5JLr/zamqZ4s/nt7uP8a5pDaiA19xsvn9/vX3am9l5ZEWT4yx8rBlW0DCvwbU7CUbuQECsaS2IgFsbMqKhiDXVgAhYxgkPuNeZ3nNiEGuqFR6wjBUaMOKWT8SaWmiCyUG9D+6h9aPFpe95s6ALuPWjy/1z/B9GPekSTS40YMQtn4g1tdAEkwsPGHHLJ2JNtcIDlrEgAkbc8olYUw2IgM0wt3wi1rQW1PvgRzsB7z12NMSa1oAKuFiy5dMbYk2ust99iES3zcpiCpicApblEP4RVGZp+pemUBBp+5W2cEcU/aFYRGd0Jz/dgirR94F+gXdsbt1bWvBW1jmLefFbOokfYmsE23q6YWhM9vpdZAw6Y83hMjRMwTZCbSBqXWkhNRSlDkqRQSOdZPQ8G61gg3g0XsECGBG0phZQj1AUbAI1ASnYZNYEpmATexS0ppbINEwFS0zBioiIiIiIiIiIiLj7DwZ+exCspbh8AAAAAElFTkSuQmCC" alt="SEMS" width="60" height="60" style="display: block;">
-                </td>
-                <td class="text-col">
-                    <h1>SEMS</h1>
-                    <div class="subtitle">Smart Employee Management System</div>
-                </td>
-            </tr>
-        </table>
+        <div style="text-align: center; margin-bottom: 5px;">
+            <h1 style="font-size: 24pt; color: #1D4ED8; margin: 0 0 2px 0; letter-spacing: 3px;">SEMS</h1>
+            <div style="font-size: 10pt; color: #6B7280;">Smart Employee Management System</div>
+        </div>
     </div>
 
     <hr>
