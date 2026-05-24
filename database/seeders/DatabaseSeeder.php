@@ -18,6 +18,7 @@ class DatabaseSeeder extends Seeder
             ['email' => 'admin@example.com'],
             [
                 'name' => 'Admin User',
+                'password' => 'password',
                 'role' => 'admin',
             ]
         );
