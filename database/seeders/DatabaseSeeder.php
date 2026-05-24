@@ -14,16 +14,20 @@ class DatabaseSeeder extends Seeder
             DemoUserSeeder::class,
         ]);
 
-        User::factory()->create([
-            'name' => 'Admin User',
-            'email' => 'admin@example.com',
-            'role' => 'admin',
-        ]);
+        User::firstOrCreate(
+            ['email' => 'admin@example.com'],
+            [
+                'name' => 'Admin User',
+                'role' => 'admin',
+            ]
+        );
 
-        User::factory()
-            ->count(25)
-            ->employee()
-            ->has(Employee::factory()->active())
-            ->create();
+        if (User::where('role', 'employee')->count() < 2) {
+            User::factory()
+                ->count(25)
+                ->employee()
+                ->has(Employee::factory()->active())
+                ->create();
+        }
     }
 }
