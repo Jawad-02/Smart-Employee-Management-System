@@ -89,7 +89,7 @@
                                     Feel free to explore the source code, report issues, or contribute on GitHub.
                                 </p>
 
-                                <a href="https://github.com/Jawad-02" target="_blank" class="btn btn-dark mt-2">
+                                <a href="https://github.com/Jawad-02/Smart-Employee-Management-System" target="_blank" class="btn btn-dark mt-2">
                                     <i class="bi bi-github me-1"></i>View Source Code on GitHub
                                 </a>
 
