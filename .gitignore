@@ -29,3 +29,7 @@ Thumbs.db
 .agents/
 /storage/app/public/
 /bootstrap/cache/*
+
+# Railway (old deployment)
+Caddyfile
+start-container.sh
